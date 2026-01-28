@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel=stylesheet href="Vehiculos.css">
+    <title>Vehicylos</title>
+</head>
+<body>
+    <h1>Ingreso de Vehiculos</h1>
+    <form action="#" method=GET>
+        <label for="Propietario">Propietario:</label>
+        <input type="text" name="Propietario" placeholder="Nombre del Propietario" required>
+        <br>
+        <label for="Placa">Placa:</label>
+        <input type="text" name="Placa" placeholder="Numero de Placa" required>
+        <br>
+        <label for="Marca">Marca</label>
+        <select name="Marca">
+            <option value=" " disabled selected>Selecciona porfis</option>
+            <option value="VW">VW</option>
+            <option value="BMW">BMW</option>
+        </select>
+        <br>
+        <label for="Modelo">Modelo:</label>
+        <input type="text" name="Modelo" placeholder="Modelito" required>
+        <br>
+        
+        <h4>
+        <label for="Servicio">Tipos de Servicio:</label>
+        </h4>
+        
+        <label for="Aceite">Aceite</label>
+        <input type="checkbox" name="Aceite" id="">
+        <br>
+        <label for="Balanceo">Balanceo</label>
+        <input type="checkbox" name="Balanceo" id="">
+        <br>
+        <label for="Alineo">Alineo</label>
+        <input type="checkbox" name="Alineo" id="">
+        <br>
+        <label for="Lavado">Lavado</label>
+        <input type="checkbox" name="Lavado" id="">
+        <br>
+        <p>Servicio:</p>
+        <label for="PubPriv">Publico</label>
+        <input type="radio" name="PubPriv" id="Publico">
+
+        <label for="PubPriv">Privado</label>
+        <input type="radio" name="PubPriv" id="Privado">
+        <hr>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Reseteo">
+    </form>
+</body>
+</html>
